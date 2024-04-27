@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.navLogo{
+    font-size: 2.5rem;
+}
+.linkWrapper > ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.linkWrapper > ul >li{
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.linkWrapper > ul >button{
+padding: 20px 30px;
+background-color: rgb(243, 240, 240);
+border: none;
+outline: none;
+color: black;
+border-radius: 14px;
+font-size: 1rem;
+}
